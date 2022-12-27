@@ -23,7 +23,7 @@ class Login:
                     #create the button
                     self.button = Button(self.frame, text = 'Login', command = self.check)
                     self.button.pack()
-
+          #define function check
           def check(self):
                     if self.entry.get() == self.key:
                               self.new_window()
